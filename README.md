@@ -22,7 +22,7 @@ A web view controller class for iOS that allows users to view web pages directly
 ```
 #import "UIButton+WHE.h"
 ```
-<br>#import "UIColor+WHE.h"二进制颜色转为RGB颜色
+<br>#import "UIColor+WHE.h"HEX颜色转为RGB颜色
 ```
 #import "UIColor+WHE.h"
 ```

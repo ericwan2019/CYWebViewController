@@ -15,6 +15,15 @@
 		A9854FFA1C4C8CCE005E7161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9854FF81C4C8CCE005E7161 /* LaunchScreen.storyboard */; };
 		A98550051C4C8CCE005E7161 /* CYWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550041C4C8CCE005E7161 /* CYWebViewControllerTests.m */; };
 		A98550101C4C8CCE005E7161 /* CYWebViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A985500F1C4C8CCE005E7161 /* CYWebViewControllerUITests.m */; };
+		A985502B1C4C8D24005E7161 /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = A985501E1C4C8D24005E7161 /* backBtn.png */; };
+		A985502C1C4C8D24005E7161 /* backBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A985501F1C4C8D24005E7161 /* backBtn@2x.png */; };
+		A985502D1C4C8D24005E7161 /* backBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A98550201C4C8D24005E7161 /* backBtn@3x.png */; };
+		A985502E1C4C8D24005E7161 /* CYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550221C4C8D24005E7161 /* CYWebViewController.m */; };
+		A985502F1C4C8D24005E7161 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550241C4C8D24005E7161 /* NJKWebViewProgress.m */; };
+		A98550301C4C8D24005E7161 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550261C4C8D24005E7161 /* NJKWebViewProgressView.m */; };
+		A98550311C4C8D24005E7161 /* UIButton+WHE.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550281C4C8D24005E7161 /* UIButton+WHE.m */; };
+		A98550321C4C8D24005E7161 /* UIColor+WHE.m in Sources */ = {isa = PBXBuildFile; fileRef = A985502A1C4C8D24005E7161 /* UIColor+WHE.m */; };
+		A98550351C4C8F1D005E7161 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550341C4C8F1D005E7161 /* UINavigationBar+Awesome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,21 @@
 		A985500B1C4C8CCE005E7161 /* CYWebViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYWebViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A985500F1C4C8CCE005E7161 /* CYWebViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYWebViewControllerUITests.m; sourceTree = "<group>"; };
 		A98550111C4C8CCE005E7161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A985501E1C4C8D24005E7161 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
+		A985501F1C4C8D24005E7161 /* backBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtn@2x.png"; sourceTree = "<group>"; };
+		A98550201C4C8D24005E7161 /* backBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtn@3x.png"; sourceTree = "<group>"; };
+		A98550211C4C8D24005E7161 /* CYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYWebViewController.h; sourceTree = "<group>"; };
+		A98550221C4C8D24005E7161 /* CYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYWebViewController.m; sourceTree = "<group>"; };
+		A98550231C4C8D24005E7161 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		A98550241C4C8D24005E7161 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		A98550251C4C8D24005E7161 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		A98550261C4C8D24005E7161 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		A98550271C4C8D24005E7161 /* UIButton+WHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WHE.h"; sourceTree = "<group>"; };
+		A98550281C4C8D24005E7161 /* UIButton+WHE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WHE.m"; sourceTree = "<group>"; };
+		A98550291C4C8D24005E7161 /* UIColor+WHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WHE.h"; sourceTree = "<group>"; };
+		A985502A1C4C8D24005E7161 /* UIColor+WHE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WHE.m"; sourceTree = "<group>"; };
+		A98550331C4C8F1D005E7161 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		A98550341C4C8F1D005E7161 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,7 @@
 		A9854FE91C4C8CCE005E7161 /* CYWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				A985501D1C4C8D14005E7161 /* CY */,
 				A9854FED1C4C8CCE005E7161 /* AppDelegate.h */,
 				A9854FEE1C4C8CCE005E7161 /* AppDelegate.m */,
 				A9854FF01C4C8CCE005E7161 /* ViewController.h */,
@@ -138,6 +163,28 @@
 				A98550111C4C8CCE005E7161 /* Info.plist */,
 			);
 			path = CYWebViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		A985501D1C4C8D14005E7161 /* CY */ = {
+			isa = PBXGroup;
+			children = (
+				A98550331C4C8F1D005E7161 /* UINavigationBar+Awesome.h */,
+				A98550341C4C8F1D005E7161 /* UINavigationBar+Awesome.m */,
+				A985501E1C4C8D24005E7161 /* backBtn.png */,
+				A985501F1C4C8D24005E7161 /* backBtn@2x.png */,
+				A98550201C4C8D24005E7161 /* backBtn@3x.png */,
+				A98550211C4C8D24005E7161 /* CYWebViewController.h */,
+				A98550221C4C8D24005E7161 /* CYWebViewController.m */,
+				A98550231C4C8D24005E7161 /* NJKWebViewProgress.h */,
+				A98550241C4C8D24005E7161 /* NJKWebViewProgress.m */,
+				A98550251C4C8D24005E7161 /* NJKWebViewProgressView.h */,
+				A98550261C4C8D24005E7161 /* NJKWebViewProgressView.m */,
+				A98550271C4C8D24005E7161 /* UIButton+WHE.h */,
+				A98550281C4C8D24005E7161 /* UIButton+WHE.m */,
+				A98550291C4C8D24005E7161 /* UIColor+WHE.h */,
+				A985502A1C4C8D24005E7161 /* UIColor+WHE.m */,
+			);
+			name = CY;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +290,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A985502C1C4C8D24005E7161 /* backBtn@2x.png in Resources */,
+				A985502D1C4C8D24005E7161 /* backBtn@3x.png in Resources */,
 				A9854FFA1C4C8CCE005E7161 /* LaunchScreen.storyboard in Resources */,
 				A9854FF71C4C8CCE005E7161 /* Assets.xcassets in Resources */,
 				A9854FF51C4C8CCE005E7161 /* Main.storyboard in Resources */,
+				A985502B1C4C8D24005E7161 /* backBtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +320,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A985502F1C4C8D24005E7161 /* NJKWebViewProgress.m in Sources */,
+				A98550301C4C8D24005E7161 /* NJKWebViewProgressView.m in Sources */,
 				A9854FF21C4C8CCE005E7161 /* ViewController.m in Sources */,
+				A985502E1C4C8D24005E7161 /* CYWebViewController.m in Sources */,
+				A98550351C4C8F1D005E7161 /* UINavigationBar+Awesome.m in Sources */,
+				A98550321C4C8D24005E7161 /* UIColor+WHE.m in Sources */,
 				A9854FEF1C4C8CCE005E7161 /* AppDelegate.m in Sources */,
 				A9854FEC1C4C8CCE005E7161 /* main.m in Sources */,
+				A98550311C4C8D24005E7161 /* UIButton+WHE.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

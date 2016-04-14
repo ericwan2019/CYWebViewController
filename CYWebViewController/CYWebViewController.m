@@ -156,7 +156,6 @@
     UIButton *backBtn = [UIButton buttonBackWithImage:[UIImage imageNamed:@"backBtn"] buttontitle:@"返回" target:self action:@selector(clickedbackBtn:) forControlEvents:UIControlEventTouchUpInside];
     backBtn.frame = CGRectMake(0, 0, 44, 44);
     [customView addSubview:backBtn];
-    
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:customView];
     
 }

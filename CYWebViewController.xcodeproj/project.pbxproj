@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55FBBE481CBF8476006FD954 /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FBBE391CBF8476006FD954 /* backBtn.png */; };
+		55FBBE491CBF8476006FD954 /* backBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FBBE3A1CBF8476006FD954 /* backBtn@2x.png */; };
+		55FBBE4A1CBF8476006FD954 /* backBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55FBBE3B1CBF8476006FD954 /* backBtn@3x.png */; };
+		55FBBE4B1CBF8476006FD954 /* UIButton+WHE.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBBE3E1CBF8476006FD954 /* UIButton+WHE.m */; };
+		55FBBE4C1CBF8476006FD954 /* UIColor+WHE.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBBE401CBF8476006FD954 /* UIColor+WHE.m */; };
+		55FBBE4D1CBF8476006FD954 /* CYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBBE421CBF8476006FD954 /* CYWebViewController.m */; };
+		55FBBE4E1CBF8476006FD954 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBBE451CBF8476006FD954 /* NJKWebViewProgress.m */; };
+		55FBBE4F1CBF8476006FD954 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBBE471CBF8476006FD954 /* NJKWebViewProgressView.m */; };
 		A9854FEC1C4C8CCE005E7161 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9854FEB1C4C8CCE005E7161 /* main.m */; };
 		A9854FEF1C4C8CCE005E7161 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9854FEE1C4C8CCE005E7161 /* AppDelegate.m */; };
 		A9854FF21C4C8CCE005E7161 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9854FF11C4C8CCE005E7161 /* ViewController.m */; };
@@ -15,15 +23,6 @@
 		A9854FFA1C4C8CCE005E7161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9854FF81C4C8CCE005E7161 /* LaunchScreen.storyboard */; };
 		A98550051C4C8CCE005E7161 /* CYWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550041C4C8CCE005E7161 /* CYWebViewControllerTests.m */; };
 		A98550101C4C8CCE005E7161 /* CYWebViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A985500F1C4C8CCE005E7161 /* CYWebViewControllerUITests.m */; };
-		A985502B1C4C8D24005E7161 /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = A985501E1C4C8D24005E7161 /* backBtn.png */; };
-		A985502C1C4C8D24005E7161 /* backBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A985501F1C4C8D24005E7161 /* backBtn@2x.png */; };
-		A985502D1C4C8D24005E7161 /* backBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A98550201C4C8D24005E7161 /* backBtn@3x.png */; };
-		A985502E1C4C8D24005E7161 /* CYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550221C4C8D24005E7161 /* CYWebViewController.m */; };
-		A985502F1C4C8D24005E7161 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550241C4C8D24005E7161 /* NJKWebViewProgress.m */; };
-		A98550301C4C8D24005E7161 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550261C4C8D24005E7161 /* NJKWebViewProgressView.m */; };
-		A98550311C4C8D24005E7161 /* UIButton+WHE.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550281C4C8D24005E7161 /* UIButton+WHE.m */; };
-		A98550321C4C8D24005E7161 /* UIColor+WHE.m in Sources */ = {isa = PBXBuildFile; fileRef = A985502A1C4C8D24005E7161 /* UIColor+WHE.m */; };
-		A98550351C4C8F1D005E7161 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = A98550341C4C8F1D005E7161 /* UINavigationBar+Awesome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55FBBE391CBF8476006FD954 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
+		55FBBE3A1CBF8476006FD954 /* backBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtn@2x.png"; sourceTree = "<group>"; };
+		55FBBE3B1CBF8476006FD954 /* backBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtn@3x.png"; sourceTree = "<group>"; };
+		55FBBE3D1CBF8476006FD954 /* UIButton+WHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WHE.h"; sourceTree = "<group>"; };
+		55FBBE3E1CBF8476006FD954 /* UIButton+WHE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WHE.m"; sourceTree = "<group>"; };
+		55FBBE3F1CBF8476006FD954 /* UIColor+WHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WHE.h"; sourceTree = "<group>"; };
+		55FBBE401CBF8476006FD954 /* UIColor+WHE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WHE.m"; sourceTree = "<group>"; };
+		55FBBE411CBF8476006FD954 /* CYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYWebViewController.h; sourceTree = "<group>"; };
+		55FBBE421CBF8476006FD954 /* CYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYWebViewController.m; sourceTree = "<group>"; };
+		55FBBE441CBF8476006FD954 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		55FBBE451CBF8476006FD954 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		55FBBE461CBF8476006FD954 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		55FBBE471CBF8476006FD954 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
 		A9854FE71C4C8CCE005E7161 /* CYWebViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYWebViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9854FEB1C4C8CCE005E7161 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9854FED1C4C8CCE005E7161 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,21 +72,6 @@
 		A985500B1C4C8CCE005E7161 /* CYWebViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYWebViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A985500F1C4C8CCE005E7161 /* CYWebViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYWebViewControllerUITests.m; sourceTree = "<group>"; };
 		A98550111C4C8CCE005E7161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A985501E1C4C8D24005E7161 /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
-		A985501F1C4C8D24005E7161 /* backBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtn@2x.png"; sourceTree = "<group>"; };
-		A98550201C4C8D24005E7161 /* backBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtn@3x.png"; sourceTree = "<group>"; };
-		A98550211C4C8D24005E7161 /* CYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYWebViewController.h; sourceTree = "<group>"; };
-		A98550221C4C8D24005E7161 /* CYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYWebViewController.m; sourceTree = "<group>"; };
-		A98550231C4C8D24005E7161 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
-		A98550241C4C8D24005E7161 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
-		A98550251C4C8D24005E7161 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
-		A98550261C4C8D24005E7161 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
-		A98550271C4C8D24005E7161 /* UIButton+WHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WHE.h"; sourceTree = "<group>"; };
-		A98550281C4C8D24005E7161 /* UIButton+WHE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WHE.m"; sourceTree = "<group>"; };
-		A98550291C4C8D24005E7161 /* UIColor+WHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WHE.h"; sourceTree = "<group>"; };
-		A985502A1C4C8D24005E7161 /* UIColor+WHE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WHE.m"; sourceTree = "<group>"; };
-		A98550331C4C8F1D005E7161 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
-		A98550341C4C8F1D005E7161 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +99,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55FBBE381CBF8476006FD954 /* CY */ = {
+			isa = PBXGroup;
+			children = (
+				55FBBE391CBF8476006FD954 /* backBtn.png */,
+				55FBBE3A1CBF8476006FD954 /* backBtn@2x.png */,
+				55FBBE3B1CBF8476006FD954 /* backBtn@3x.png */,
+				55FBBE3C1CBF8476006FD954 /* Category */,
+				55FBBE411CBF8476006FD954 /* CYWebViewController.h */,
+				55FBBE421CBF8476006FD954 /* CYWebViewController.m */,
+				55FBBE431CBF8476006FD954 /* NJKWebViewProgress */,
+			);
+			path = CY;
+			sourceTree = "<group>";
+		};
+		55FBBE3C1CBF8476006FD954 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				55FBBE3D1CBF8476006FD954 /* UIButton+WHE.h */,
+				55FBBE3E1CBF8476006FD954 /* UIButton+WHE.m */,
+				55FBBE3F1CBF8476006FD954 /* UIColor+WHE.h */,
+				55FBBE401CBF8476006FD954 /* UIColor+WHE.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		55FBBE431CBF8476006FD954 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				55FBBE441CBF8476006FD954 /* NJKWebViewProgress.h */,
+				55FBBE451CBF8476006FD954 /* NJKWebViewProgress.m */,
+				55FBBE461CBF8476006FD954 /* NJKWebViewProgressView.h */,
+				55FBBE471CBF8476006FD954 /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
 		A9854FDE1C4C8CCE005E7161 = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +158,7 @@
 		A9854FE91C4C8CCE005E7161 /* CYWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				A985501D1C4C8D14005E7161 /* CY */,
+				55FBBE381CBF8476006FD954 /* CY */,
 				A9854FED1C4C8CCE005E7161 /* AppDelegate.h */,
 				A9854FEE1C4C8CCE005E7161 /* AppDelegate.m */,
 				A9854FF01C4C8CCE005E7161 /* ViewController.h */,
@@ -163,28 +196,6 @@
 				A98550111C4C8CCE005E7161 /* Info.plist */,
 			);
 			path = CYWebViewControllerUITests;
-			sourceTree = "<group>";
-		};
-		A985501D1C4C8D14005E7161 /* CY */ = {
-			isa = PBXGroup;
-			children = (
-				A98550331C4C8F1D005E7161 /* UINavigationBar+Awesome.h */,
-				A98550341C4C8F1D005E7161 /* UINavigationBar+Awesome.m */,
-				A985501E1C4C8D24005E7161 /* backBtn.png */,
-				A985501F1C4C8D24005E7161 /* backBtn@2x.png */,
-				A98550201C4C8D24005E7161 /* backBtn@3x.png */,
-				A98550211C4C8D24005E7161 /* CYWebViewController.h */,
-				A98550221C4C8D24005E7161 /* CYWebViewController.m */,
-				A98550231C4C8D24005E7161 /* NJKWebViewProgress.h */,
-				A98550241C4C8D24005E7161 /* NJKWebViewProgress.m */,
-				A98550251C4C8D24005E7161 /* NJKWebViewProgressView.h */,
-				A98550261C4C8D24005E7161 /* NJKWebViewProgressView.m */,
-				A98550271C4C8D24005E7161 /* UIButton+WHE.h */,
-				A98550281C4C8D24005E7161 /* UIButton+WHE.m */,
-				A98550291C4C8D24005E7161 /* UIColor+WHE.h */,
-				A985502A1C4C8D24005E7161 /* UIColor+WHE.m */,
-			);
-			name = CY;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,12 +301,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A985502C1C4C8D24005E7161 /* backBtn@2x.png in Resources */,
-				A985502D1C4C8D24005E7161 /* backBtn@3x.png in Resources */,
+				55FBBE491CBF8476006FD954 /* backBtn@2x.png in Resources */,
+				55FBBE4A1CBF8476006FD954 /* backBtn@3x.png in Resources */,
 				A9854FFA1C4C8CCE005E7161 /* LaunchScreen.storyboard in Resources */,
 				A9854FF71C4C8CCE005E7161 /* Assets.xcassets in Resources */,
 				A9854FF51C4C8CCE005E7161 /* Main.storyboard in Resources */,
-				A985502B1C4C8D24005E7161 /* backBtn.png in Resources */,
+				55FBBE481CBF8476006FD954 /* backBtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,15 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A985502F1C4C8D24005E7161 /* NJKWebViewProgress.m in Sources */,
-				A98550301C4C8D24005E7161 /* NJKWebViewProgressView.m in Sources */,
 				A9854FF21C4C8CCE005E7161 /* ViewController.m in Sources */,
-				A985502E1C4C8D24005E7161 /* CYWebViewController.m in Sources */,
-				A98550351C4C8F1D005E7161 /* UINavigationBar+Awesome.m in Sources */,
-				A98550321C4C8D24005E7161 /* UIColor+WHE.m in Sources */,
+				55FBBE4D1CBF8476006FD954 /* CYWebViewController.m in Sources */,
 				A9854FEF1C4C8CCE005E7161 /* AppDelegate.m in Sources */,
+				55FBBE4B1CBF8476006FD954 /* UIButton+WHE.m in Sources */,
+				55FBBE4C1CBF8476006FD954 /* UIColor+WHE.m in Sources */,
 				A9854FEC1C4C8CCE005E7161 /* main.m in Sources */,
-				A98550311C4C8D24005E7161 /* UIButton+WHE.m in Sources */,
+				55FBBE4E1CBF8476006FD954 /* NJKWebViewProgress.m in Sources */,
+				55FBBE4F1CBF8476006FD954 /* NJKWebViewProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +562,7 @@
 				A98550161C4C8CCE005E7161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A98550171C4C8CCE005E7161 /* Build configuration list for PBXNativeTarget "CYWebViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -560,6 +571,7 @@
 				A98550191C4C8CCE005E7161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A985501A1C4C8CCE005E7161 /* Build configuration list for PBXNativeTarget "CYWebViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +580,7 @@
 				A985501C1C4C8CCE005E7161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CYWebviewController.xcscheme</key>
+		<key>CYWebViewController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>552E1C061CFC212500FB1055</key>
+		<key>A9854FE61C4C8CCE005E7161</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>552E1C1F1CFC212500FB1055</key>
+		<key>A9854FFF1C4C8CCE005E7161</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>552E1C2A1CFC212500FB1055</key>
+		<key>A985500A1C4C8CCE005E7161</key>
 		<dict>
 			<key>primary</key>
 			<true/>

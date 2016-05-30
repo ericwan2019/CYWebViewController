@@ -1,18 +1,18 @@
 //
-//  CYWebviewControllerTests.m
-//  CYWebviewControllerTests
+//  CYWebViewControllerTests.m
+//  CYWebViewControllerTests
 //
-//  Created by 万鸿恩 on 16/5/30.
+//  Created by 万鸿恩 on 16/1/18.
 //  Copyright © 2016年 万鸿恩. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface CYWebviewControllerTests : XCTestCase
+@interface CYWebViewControllerTests : XCTestCase
 
 @end
 
-@implementation CYWebviewControllerTests
+@implementation CYWebViewControllerTests
 
 - (void)setUp {
     [super setUp];

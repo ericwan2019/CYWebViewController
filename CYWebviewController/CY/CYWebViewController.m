@@ -23,8 +23,23 @@
 @implementation CYWebViewController
 
 #pragma mark - Initialize
+- (id)initWithURL:(NSURL *)url{
+    self = [super init];
+    if (self) {
+        _url = [self cleanURL:url];
+        [self setup];
+    }
+    return self;
+}
 
-
+- (instancetype)initWithURLString:(NSString *)urlString{
+    self = [super init];
+    if (self) {
+        _url = [self cleanURL:[NSURL URLWithString:urlString]];
+        [self setup];
+    }
+    return self;
+}
 
 #pragma mark - set&get
 - (void)setUrl:(NSURL *)url{

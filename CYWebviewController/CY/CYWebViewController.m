@@ -1,8 +1,8 @@
 //
 //  CYWebViewController.m
-//  CYWebViewController
+//  CYWebviewController
 //
-//  Created by 万鸿恩 on 16/1/18.
+//  Created by 万鸿恩 on 16/5/30.
 //  Copyright © 2016年 万鸿恩. All rights reserved.
 //
 
@@ -11,38 +11,38 @@
 #import "NJKWebViewProgressView.h"
 #import "UIColor+WHE.h"
 #import "UIButton+WHE.h"
+
+
 @interface CYWebViewController ()<UIWebViewDelegate,NJKWebViewProgressDelegate>
 @property (strong, nonatomic) UIWebView * webView;
 @property (nonatomic,strong) NJKWebViewProgressView *progressView;
 @property (nonatomic,strong) NJKWebViewProgress *progressProxy;
 
-
 @end
 
 @implementation CYWebViewController
 
--(void)setUrl:(NSString *)url{
-    _url = url;
+#pragma mark - Initialize
+
+
+
+#pragma mark - set&get
+- (void)setUrl:(NSURL *)url{
+    _url = [self cleanURL:url];
 }
 
+- (void)setUrlString:(NSString *)urlString{
+    _urlString = urlString;
+    _url = [self cleanURL:[NSURL URLWithString:urlString]];
+}
+
+
+#pragma mark -
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    self.progressProxy = [[NJKWebViewProgress alloc] init];
-    self.webView.delegate = self.progressProxy;
-    self.progressProxy.webViewProxyDelegate = self;
-    self.progressProxy.progressDelegate = self;
-    
-    CGFloat progressBarHeight = 3.f;
-    CGRect navigationBarBounds = self.navigationController.navigationBar.bounds;
-    CGRect barFrame = CGRectMake(0, navigationBarBounds.size.height - progressBarHeight, navigationBarBounds.size.width, progressBarHeight);
-    self.progressView = [[NJKWebViewProgressView alloc] initWithFrame:barFrame];
-    self.progressView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
-    
-    if (self.loadingBarTintColor) {
-        self.progressView.progressBarView.backgroundColor = self.loadingBarTintColor;
-    }
+    [self setup];
     
     if (self.bgcolor) {
         [self.view setBackgroundColor:[UIColor colorFromHexString:self.bgcolor]];
@@ -75,6 +75,36 @@
     [self.progressView removeFromSuperview];
 }
 
+
+#pragma mark - Setup
+- (void)setup{
+    self.progressProxy = [[NJKWebViewProgress alloc] init];
+    self.webView.delegate = self.progressProxy;
+    self.progressProxy.webViewProxyDelegate = self;
+    self.progressProxy.progressDelegate = self;
+    
+    CGFloat progressBarHeight = 3.f;
+    CGRect navigationBarBounds = self.navigationController.navigationBar.bounds;
+    CGRect barFrame = CGRectMake(0, navigationBarBounds.size.height - progressBarHeight, navigationBarBounds.size.width, progressBarHeight);
+    self.progressView = [[NJKWebViewProgressView alloc] initWithFrame:barFrame];
+    self.progressView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
+    
+    if (self.loadingBarTintColor) {
+        self.progressView.progressBarView.backgroundColor = self.loadingBarTintColor;
+    }
+}
+
+- (NSURL *)cleanURL:(NSURL *)url{
+    //If no URL scheme was supplied, defer back to HTTP.
+    if (url.scheme.length == 0) {
+        url = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@",[url absoluteString]]];
+    }
+    return url;
+}
+
+
+
+
 - (IBAction)searchButtonPushed:(id)sender
 {
     [self loadURL];
@@ -88,7 +118,7 @@
 -(void)loadURL
 {
     //PRODUCT_INFO_URL
-    NSURLRequest *req = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:self.url]];
+    NSURLRequest *req = [[NSURLRequest alloc] initWithURL:self.url];
     [self.webView loadRequest:req];
 }
 

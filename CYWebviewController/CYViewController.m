@@ -1,22 +1,25 @@
 //
-//  ViewController.m
-//  CYWebViewController
+//  CYViewController.m
+//  CYWebviewController
 //
-//  Created by 万鸿恩 on 16/1/18.
+//  Created by 万鸿恩 on 16/5/30.
 //  Copyright © 2016年 万鸿恩. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "CYWebViewController.h"
+#import "CYViewController.h"
 #import "UIColor+WHE.h"
 #import "UINavigationBar+Awesome.h"
-@interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
+#import "CYWebViewController.h"
+
+
+
+@interface CYViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic,strong) UITableView *tableView;
 
 @end
 
-@implementation ViewController
+@implementation CYViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -79,14 +82,25 @@
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
     CYWebViewController *controller = [[CYWebViewController alloc] init];
-    controller.url = @"https://www.baidu.com/";
+    controller.url = [NSURL URLWithString:@"https://www.baidu.com/"];
     controller.loadingBarTintColor = [UIColor redColor];
     [self.navigationController pushViewController:controller animated:YES];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
 
 @end

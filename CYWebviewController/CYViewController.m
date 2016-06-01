@@ -30,6 +30,9 @@
     [self setNavColor];
 }
 
+/**
+ *  设置导航栏的颜色，返回按钮和标题为白色
+ */
 -(void)setNavColor{
     NSArray *ver = [[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."];
     if ([[ver objectAtIndex:0] intValue] >= 7) {
@@ -63,10 +66,13 @@
 
 
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-    return 1;
+    return 2;
 }
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 1;
+    if (section == 1) {
+        return 1;
+    }
+    return 2;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -75,17 +81,68 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"tracy"];
     }
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.textLabel.text = @"测试";
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            cell.textLabel.text = @"测试push";
+        }else{
+            cell.textLabel.text = @"测试";
+        }
+    }else{
+        cell.textLabel.text = @"测试Wechat Mode";
+    }
     return cell;
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     
-    CYWebViewController *controller = [[CYWebViewController alloc] init];
-    controller.url = [NSURL URLWithString:@"https://www.baidu.com/"];
-    controller.loadingBarTintColor = [UIColor redColor];
-    [self.navigationController pushViewController:controller animated:YES];
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            CYWebViewController *controller = [[CYWebViewController alloc] init];
+            controller.url = [NSURL URLWithString:@"https://www.baidu.com/"];
+            controller.loadingBarTintColor = [UIColor redColor];
+            controller.navigationButtonsHidden = NO;
+            [self.navigationController pushViewController:controller animated:YES];
+        }else{
+            CYWebViewController *controller = [[CYWebViewController alloc] init];
+            controller.url = [NSURL URLWithString:@"https://www.baidu.com/"];
+            controller.loadingBarTintColor = [UIColor redColor];
+            controller.navigationButtonsHidden = NO;
+            [self presentViewController:[[UINavigationController alloc] initWithRootViewController:controller] animated:YES completion:nil];
+        }
+    }else{
+        CYWebViewController *controller = [[CYWebViewController alloc] init];
+        controller.url = [NSURL URLWithString:@"https://www.baidu.com/"];
+        controller.loadingBarTintColor = [UIColor redColor];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
 }
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 40;
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+    if (section == 0) {
+        UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 260, 40) ];
+        [header setBackgroundColor:[UIColor clearColor]];
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 8, 200, 24)];
+        label.text = @"Safari Mode";
+        label.textColor = [UIColor grayColor];
+        label.font = [UIFont systemFontOfSize:16];
+        [header addSubview:label];
+        return header;
+    }else{
+        UIView *header = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 260, 40) ];
+        [header setBackgroundColor:[UIColor clearColor]];
+        UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 8, 200, 24)];
+        label.text = @"Wechat Mode";
+        label.textColor = [UIColor grayColor];
+        label.font = [UIFont systemFontOfSize:16];
+        [header addSubview:label];
+        return header;
+    }
+}
+
 
 
 - (void)didReceiveMemoryWarning {

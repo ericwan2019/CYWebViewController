@@ -13,7 +13,7 @@
 		552E1C471CFC3AD100FB1055 /* backBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552E1C441CFC3AD100FB1055 /* backBtn@2x.png */; };
 		552E1C481CFC3AD100FB1055 /* backBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552E1C451CFC3AD100FB1055 /* backBtn@3x.png */; };
 		5537AE231CFC4F0600136177 /* CYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5537AE221CFC4F0600136177 /* CYWebViewController.m */; };
-		554C34E01CFC44B3000F9C27 /* CYWebControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554C34DF1CFC44B3000F9C27 /* CYWebControlView.m */; };
+		5541A05E1CFD244A00A470C3 /* UIImage+CYButtonIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5541A05D1CFD244A00A470C3 /* UIImage+CYButtonIcon.m */; };
 		55FBBE4B1CBF8476006FD954 /* UIButton+WHE.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBBE3E1CBF8476006FD954 /* UIButton+WHE.m */; };
 		55FBBE4C1CBF8476006FD954 /* UIColor+WHE.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBBE401CBF8476006FD954 /* UIColor+WHE.m */; };
 		55FBBE4E1CBF8476006FD954 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FBBE451CBF8476006FD954 /* NJKWebViewProgress.m */; };
@@ -54,8 +54,8 @@
 		552E1C451CFC3AD100FB1055 /* backBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backBtn@3x.png"; sourceTree = "<group>"; };
 		5537AE211CFC4F0600136177 /* CYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CYWebViewController.h; path = CYWebviewController/CY/CYWebViewController.h; sourceTree = SOURCE_ROOT; };
 		5537AE221CFC4F0600136177 /* CYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CYWebViewController.m; path = CYWebviewController/CY/CYWebViewController.m; sourceTree = SOURCE_ROOT; };
-		554C34DE1CFC44B3000F9C27 /* CYWebControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYWebControlView.h; sourceTree = "<group>"; };
-		554C34DF1CFC44B3000F9C27 /* CYWebControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYWebControlView.m; sourceTree = "<group>"; };
+		5541A05C1CFD244A00A470C3 /* UIImage+CYButtonIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+CYButtonIcon.h"; path = "CYWebviewController/CY/Category/UIImage+CYButtonIcon.h"; sourceTree = SOURCE_ROOT; };
+		5541A05D1CFD244A00A470C3 /* UIImage+CYButtonIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CYButtonIcon.m"; path = "CYWebviewController/CY/Category/UIImage+CYButtonIcon.m"; sourceTree = SOURCE_ROOT; };
 		55FBBE3D1CBF8476006FD954 /* UIButton+WHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WHE.h"; sourceTree = "<group>"; };
 		55FBBE3E1CBF8476006FD954 /* UIButton+WHE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WHE.m"; sourceTree = "<group>"; };
 		55FBBE3F1CBF8476006FD954 /* UIColor+WHE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WHE.h"; sourceTree = "<group>"; };
@@ -108,8 +108,6 @@
 		552E1C401CFC3A4700FB1055 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				554C34DE1CFC44B3000F9C27 /* CYWebControlView.h */,
-				554C34DF1CFC44B3000F9C27 /* CYWebControlView.m */,
 			);
 			name = View;
 			path = CYWebviewController/CY/View;
@@ -148,6 +146,8 @@
 				55FBBE3E1CBF8476006FD954 /* UIButton+WHE.m */,
 				55FBBE3F1CBF8476006FD954 /* UIColor+WHE.h */,
 				55FBBE401CBF8476006FD954 /* UIColor+WHE.m */,
+				5541A05C1CFD244A00A470C3 /* UIImage+CYButtonIcon.h */,
+				5541A05D1CFD244A00A470C3 /* UIImage+CYButtonIcon.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -359,7 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554C34E01CFC44B3000F9C27 /* CYWebControlView.m in Sources */,
+				5541A05E1CFD244A00A470C3 /* UIImage+CYButtonIcon.m in Sources */,
 				A9854FEF1C4C8CCE005E7161 /* AppDelegate.m in Sources */,
 				55FBBE4B1CBF8476006FD954 /* UIButton+WHE.m in Sources */,
 				5537AE231CFC4F0600136177 /* CYWebViewController.m in Sources */,

@@ -13,6 +13,7 @@ Contain two mode:wechat browser and Safari browser. A web view controller class 
 使用:
 ===
 把项目中的CY文件夹拉近自己的项目就可以了<br>
+Push "CY" file to your project
 <br/>
 ```
 #import "CYWebViewController.h"

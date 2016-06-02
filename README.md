@@ -31,8 +31,12 @@ Push "CY" file to your project
 #import "UIColor+WHE.h"
 ```
 
-例子：
+例子Example：
 =====
+<br>import
+```
+#import "CYWebViewController.h"
+```
 <br>使用微信内置浏览器模式 (Using Wechat mode)
 ```
 CYWebViewController *controller = [[CYWebViewController alloc] init];

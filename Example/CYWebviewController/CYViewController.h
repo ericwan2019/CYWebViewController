@@ -2,11 +2,11 @@
 //  CYViewController.h
 //  CYWebviewController
 //
-//  Created by 万鸿恩 on 07/12/2016.
-//  Copyright (c) 2016 万鸿恩. All rights reserved.
+//  Created by 万鸿恩 on 16/5/30.
+//  Copyright © 2016年 万鸿恩. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface CYViewController : UIViewController
 

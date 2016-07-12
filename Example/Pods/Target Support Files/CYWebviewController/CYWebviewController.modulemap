@@ -1,0 +1,6 @@
+framework module CYWebviewController {
+  umbrella header "CYWebviewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

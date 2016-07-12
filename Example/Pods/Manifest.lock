@@ -1,0 +1,23 @@
+PODS:
+  - CYWebviewController (1.1.0)
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CYWebviewController (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CYWebviewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CYWebviewController: 1ea34254b33d6a7262901eec50eafba9ac3ec745
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+
+PODFILE CHECKSUM: 6bcf6250c2b2a3daf81480fb88976903b92806fa
+
+COCOAPODS: 1.0.1

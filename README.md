@@ -37,14 +37,16 @@ Pull "CY" file to your project
 ```
 #import "CYWebViewController.h"
 ```
-<br>使用微信内置浏览器模式 (Using Wechat mode)
+<br>使用微信内置浏览器模式 
+Using Wechat mode
 ```
 CYWebViewController *controller = [[CYWebViewController alloc] init];
 controller.url = @"https://www.baidu.com/";
 controller.loadingBarTintColor = [UIColor redColor];
 [self.navigationController pushViewController:controller animated:YES];
 ```
-<br>使用Safari 模式，底部toolbar带有前进，后退，分享，刷新的功能。Using Safari mode, contains goBack,goForward,shareAction,refresh and stop function at toolbar.  Push ViewController
+<br>使用Safari 模式，底部toolbar带有前进，后退，分享，刷新的功能。
+Using Safari mode, contains goBack,goForward,shareAction,refresh and stop function at toolbar.  Push ViewController
 ```
 CYWebViewController *controller = [[CYWebViewController alloc] init];
 controller.url = [NSURL URLWithString:@"https://www.baidu.com/"];

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CYWebviewController'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'CYWebviewController is a webview view controller.'
 
 # This description is used to generate tags and improve search results.

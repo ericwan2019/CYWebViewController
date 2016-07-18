@@ -10,8 +10,14 @@ Contain two mode:wechat browser and Safari browser. A web view controller class 
 ![image](https://github.com/wheying/CYWebViewController/blob/master/Screenshot/5.PNG)
 ![image](https://github.com/wheying/CYWebViewController/blob/master/Screenshot/6.PNG)
 
-使用:
+使用安装Install:
 ===
+Cocoapods
+```
+pod 'CYWebviewController'
+```
+
+Manual
 把项目中的CY文件夹拉近自己的项目就可以了<br>
 Pull "CY" file to your project
 <br/>

@@ -17,7 +17,7 @@ Cocoapods
 pod 'CYWebviewController'
 ```
 
-Manual
+Manual<br>
 把项目中的CY文件夹拉近自己的项目就可以了<br>
 Pull "CY" file to your project
 <br/>
